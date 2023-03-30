@@ -1,0 +1,79 @@
+/* ESTILOS POR DEFECTO ----------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(45deg, rgb(219, 219, 219), rgb(177, 177, 177));
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* TOP NAV ----------------- */
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+    height: 100vh;
+
+    /* overflow: hidden; */
+
+    
+      
+}
+
+/* TOP NAV ----------------- */
+
+.top_nav{
+    position: relative;
+    width: 100%;
+    background: rgb(110, 110, 110);
+    height: 60px;
+    /* max-height: 60px; */
+}
+
+/* BOTTOM CONTAINER ----------------- */
+
+.bottom_container{
+    margin: auto;
+    display: flex;
+    max-width: 800px;
+    min-width: 500px;
+    height: calc(100vh - 60px);
+    max-height: 600px;
+
+    /* height: 100%;
+    width: 100%;
+
+    min-height: 600px; */
+}
+
+/* SIDE NAV ----------------- */
+
+.side_nav{
+    position: relative;
+    width: 170px;
+    background: rgb(131, 131, 131);
+    height: calc(100% - 12px);
+    margin: 6px;
+    margin-left: 0;
+    margin-right: 3px;
+    /* max-height: 60px; */
+}
+
+/* VARIATION OF YOUTH GACHA ----------------- */
+
+.voy_gacha{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 12px);
+    background-image: url(assets/variation_of_youth/background.png);
+    background-size: cover;
+    background-position: center;
+    margin: 6px;
+    margin-left: 3px;
+}
